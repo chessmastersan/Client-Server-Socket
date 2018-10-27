@@ -10,7 +10,6 @@ import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Client {
-
 	public static void main(String[] args) throws UnknownHostException, IOException {
 		
 		String ipAddress = "localhost";
@@ -30,7 +29,5 @@ public class Client {
 				System.out.println(bReader.readLine());
 			}
 		}
-		
 	}
-
 }
